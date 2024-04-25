@@ -1,0 +1,50 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  margin: 10px;
+  width: 250px;
+  padding: 0px; 
+
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.card img {
+  width: 250px; 
+  height: 200px;
+}
+
+.card-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.card-title {
+  margin-bottom: 100px;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
